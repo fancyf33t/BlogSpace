@@ -1,0 +1,65 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 7px solid rgb(56, 56, 179);
+    background-color: lightslategray;
+}
+.header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 3px black;
+    /* position: fixed; */
+    /* border: 1px solid red; */
+}
+.nav-list {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content:space-around;
+}
+.nav-list-item {
+    margin: 5px 15%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav-link {
+    text-decoration: none;
+    color:darkgrey;
+}
+.nav-link:hover {
+    color:deeppink;
+    /* font-size: 25px; */
+    transition: 1s ease-in;
+}
+
+/* main */
+.inner-main {
+    margin: 10px 40px;
+    /* padding: 10px 30px; */
+}
+/* .blog-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30%;
+} */
+form {
+    padding: 60px 10px 10px;
+    display: grid;
+    /* background-color: lightblue; */
+}
+#postTitle, #postBody {
+    border-radius: 5px;
+}

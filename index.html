@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BlogSpace</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <h1 class="title">BlogSpace</h1>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="#link"class="nav-link">home</a></li>
+                <li class="nav-list-item"><a href="#link"class="nav-link">contributors</a></li>
+                <li class="nav-list-item"><a href="#link"class="nav-link">about</a></li>
+                <li class="nav-list-item"><a href="#link"class="nav-link">contact</a></li>
+                <li class="nav-list-item"><a href="#link"class="nav-link">resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main" id="main">
+        <div class="inner-main">
+            <form class="blog-form" id="newPost" action="">
+                <label for="postTitle">Title:</label>
+                <input id="postTitle" type="text">
+                <label for="postBody">Body:</label>
+                <textarea id="postBody"></textarea>
+                <button id="postButton">post</button>
+            </form>
+            <div id="textDisplay"></div>
+        </div>
+    </main>
+    <footer class="footer" id="footer"></footer>
+    <script src="index.js"></script>
+</body>
+</html>
