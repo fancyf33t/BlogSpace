@@ -51,9 +51,7 @@ document.getElementById('newPost').addEventListener('submit', (e) => {
         .then(post => {
             postsArray.unshift(post)
             renderPosts()
-            /**
-             * Challenge: clear the form out!
-             */
+            // this will clear the form
             document.getElementById("postTitle").value = ""
             document.getElementById("postBody").value = ""
         })
